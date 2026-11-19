@@ -1,0 +1,139 @@
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #7e7e93;
+    font-size: 16px;
+    margin: 20px 30px;
+    line-height: 1.7;
+}
+
+/* HEADER */
+header {
+    background-color: #0e1554;
+    border-radius: 10px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ margin: 0PX 70px;
+}
+
+header h2 {
+    color: white;
+    padding-left: 18px;
+}
+
+header a {
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+/* MAIN */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* INTRO */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 70px 40px;
+    border-bottom: 1.5px solid #e3e0e0;
+}
+
+.presentation h1 {
+    color: #0d2038;
+    font-size: 32px;
+}
+
+.link {
+    padding-top: 25px;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+    background-color: #0e1554;
+    padding: 12px 18px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+img {
+    max-width: 70%;
+}
+
+/* TITRES */
+h2, h3 {
+    color: #0d2038;
+   
+    margin-bottom: 10px;
+}
+
+/* PROJETS */
+.projets {
+    margin: 40px 20px;
+}
+
+.liste-projets {
+    display: flex;
+    gap: 35px;
+    margin-top: 25px;
+}
+.carte img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.carte {
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid rgb(202, 200, 200);
+    border-top: 3px solid #0e1554;
+}
+
+
+.bouton {
+    display: inline-block;
+    background-color: #0e1554;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+/* COMPETENCES */
+.Compétences {
+    padding: 30px;
+    margin: 30px 0;
+}
+
+.lest-compétences span {
+    display: inline-block;
+    color: #444;
+    background-color: #dbd9d9;
+    padding: 10px 18px;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    background-color: #0e1554;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+text-align: center;
+padding: 6px;
+  margin: 0px 50PX;
+}
+footer p{
+    padding-left: 20px;
+}
