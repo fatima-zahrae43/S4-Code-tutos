@@ -1,0 +1,187 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf9f6;
+    color: #292722;
+}
+
+/* HEADER */
+header {
+    width: 95%;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8b735e;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    font-size: 13px;
+}
+
+.join, .discover {
+    background-color: #a98468;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+    font-size: 13px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 110px 20px;
+}
+
+.hero small {
+    color: #a98468;
+    font-size: 12px;
+}
+
+.hero h1 {
+    font-size: 34px;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.8;
+}
+
+.discover {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+/* ABOUT */
+.about {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.about-text {
+    font-size: 13px;
+    color: #777;
+    line-height: 1.8;
+}
+
+.about-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+.about-card {
+    background-color: white;
+    border: 1px solid #eee9e2;
+    border-radius: 12px;
+    padding: 20px;
+    width: 25%;
+    text-align: left;
+}
+
+.about-card h3 {
+    color: #a98468;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.about-card p {
+    font-size: 12px;
+    color: #777;
+}
+
+/* ACTIVITIES */
+.activities {
+    width: 92%;
+    margin: auto;
+    padding: 30px 0 70px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 22px;
+}
+
+.section-title p {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+}
+
+.activity-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.activity {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: white;
+    border: 1px solid #eee9e2;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.activity img {
+    width: 130px;
+    height: 85px;
+    border-radius: 8px;
+}
+
+.activity h3 {
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.activity p {
+    font-size: 12px;
+    color: #888;
+}
+
+.arrow {
+    margin-left: auto;
+    color: #a98468;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    font-size: 12px;
+    color: #888;
+    border-top: 1px solid #eee9e2;
+}
